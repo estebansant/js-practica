@@ -1,0 +1,42 @@
+[
+  {
+    "id": 1,
+    "dia": "Lunes",
+    "fecha": "2023-10-23",
+    "temperatura": 24,
+    "condicion": "Soleado",
+    "icono": "☀️"
+  },
+  {
+    "id": 2,
+    "dia": "Martes",
+    "fecha": "2023-10-24",
+    "temperatura": 22,
+    "condicion": "Nublado",
+    "icono": "☁️"
+  },
+  {
+    "id": 3,
+    "dia": "Miércoles",
+    "fecha": "2023-10-25",
+    "temperatura": 19,
+    "condicion": "Lluvia",
+    "icono": "🌧️"
+  },
+  {
+    "id": 4,
+    "dia": "Jueves",
+    "fecha": "2023-10-26",
+    "temperatura": 21,
+    "condicion": "Parcialmente nublado",
+    "icono": "⛅"
+  },
+  {
+    "id": 5,
+    "dia": "Viernes",
+    "fecha": "2023-10-27",
+    "temperatura": 25,
+    "condicion": "Soleado",
+    "icono": "☀️"
+  }
+]
