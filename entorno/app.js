@@ -25,7 +25,7 @@ boton.addEventListener('click', async () => {
 
     try {
         const respuesta = await obtenerUsuarioDB(idRecibido);
-        console.log("Usuario encontrado:", usuario);
+        console.log("Usuario encontrado:", respuesta.usuario);
     } catch (error) {
         console.log(error)
     } finally {
@@ -105,6 +105,8 @@ botonClima.addEventListener('click', async () => {
                 <p>${dia.temperatura}</p>
                 <p>${dia.condicion}</p>
             `
+
+            contenedor.appendChild(tarjeta)
         })
     } catch (error) {
         console.log(error)
